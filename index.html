@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alfonce Kipkemoi Ngetich - IT Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -31,16 +34,20 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="container">
-            <div class="hero-content animate-fade">
+            <div class="hero-content">
                 <div class="hero-image">
                     <!-- Replace with your actual image -->
                     <img src="Alfonce.jpeg" alt="Alfonce Kipkemoi Ngetich">
                 </div>
-                <h1>Alfonce Kipkemoi <span>Ngetich</span></h1>
-                <p>IT Specialist | Network Administrator | SAP Support</p>
-                <p class="animate-fade delay-1">Dedicated IT professional with expertise in network installation, system support, and hardware troubleshooting.</p>
-                <a href="#contact" class="btn animate-fade delay-2">Get In Touch</a>
-            </div>
+                <h1>
+                    <span class="greeting">Hello, I Am</span>
+                    <span class="hero-name">Alfonce Kipkemoi</span>
+                    <span class="hero-name-accent">Ngetich</span>
+                </h1>
+                <p class="hero-title">IT Specialist | Network Administrator | SAP Support</p>
+                <p class="hero-description">Dedicated IT professional with expertise in network installation, system support, and hardware troubleshooting.</p>
+                <a href="#contact" class="btn hero-btn">Get In Touch</a>
+            </div>git 
         </div>
     </section>
 
@@ -56,7 +63,7 @@
                 <div class="about-text animate-right delay-1">
                     <h3>Dedicated IT Professional</h3>
                     <p>I am a passionate IT professional with expertise in network installation, system support, and hardware troubleshooting. I specialize in technology solutions that drive business efficiency and productivity.</p>
-                    <p>With an interest of bettering my career, I am learning software engineering at Power Learnt Project so that I can enhance my skills. At Power Learn Project I learn Python, Database, Web Development Enterpreneurship and Personal Development and Startup Building</p>
+                    <p>With experience in both public and private sectors, I bring a comprehensive skill set that includes SAP and CRM systems support, CCTV installation, and artwork design for label printing.</p>
                     
                     <div class="personal-attributes">
                         <h4>Personal Attributes:</h4>
@@ -89,6 +96,11 @@
                     </div>
                 </div>
             </div>
+            <div class="pdf-download animate-fade delay-3">
+                <a href="Alfonce_Kipkemoi_CV.pdf" class="pdf-btn" download>
+                    <i class="fas fa-file-pdf"></i> Download My CV (PDF)
+                </a>
+            </div>
         </div>
     </section>
 
@@ -106,9 +118,9 @@
                         <li>SAP and CRM systems support</li>
                         <li>CCTV installation and configuration</li>
                         <li>Artwork design and printing of labels using Roland Printer</li>
-                        <!-- <li>Repairing and maintaining ICT equipment and associated peripherals</li>
-                        <li>Installing, updating and configuring operating systems</li> -->
-                        <li>Troubleshooting, diagnosing and solving network, software and hardware problems</li>
+                        <li>Repairing and maintaining ICT equipment and associated peripherals</li>
+                        <!-- <li>Installing, updating and configuring operating systems</li>
+                        <li>Troubleshooting, diagnosing and solving network, software and hardware problems</li> -->
                     </ul>
                 </div>
                 
@@ -128,6 +140,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Education Section -->
     <section id="education">
@@ -159,11 +172,28 @@
                     <h3>Kenya Certificate of Secondary Education</h3>
                     <span class="institution">Tumaini House School</span>
                     <span class="date">January 2010 - November 2014</span>
-                    <!-- <p class="grade">Mean grade of B (minus)</p> -->
+                    <p class="grade">Mean grade of B (minus)</p>
                 </div>
             </div>
         </div>
     </section>
+    <div class="contact-item">
+        <div class="contact-icon">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="contact-text">
+            <h4>Hobbies</h4>
+            <div class="hobbies-list">
+                <marquee behavior="" direction="">
+                <span class="hobby-item">Reading</span>
+                <span class="hobby-item">Handball</span>
+                <span class="hobby-item">Movies</span>
+                <span class="hobby-item">Documentaries</span>
+                <span class="hobby-item">Athletics</span>
+                </marquee>
+            </div>
+        </div>
+    </div>
 
     <!-- Skills Section -->
     <section id="skills">
@@ -229,23 +259,6 @@
                 </div>
             </div>
         </div>
-        <div class="contact-item">
-            <!-- <div class="contact-icon">
-                <i class="fas fa-heart"></i>
-            </div> -->
-            <div class="contact-hobbies">
-                <h4>Hobbies</h4>
-                <div class="hobbies-list">
-                    <marquee>
-                    <span class="hobby-item">Reading</span>
-                    <span class="hobby-item">Handball</span>
-                    <span class="hobby-item">Movies</span>
-                    <span class="hobby-item">Documentaries</span>
-                    <span class="hobby-item">Athletics</span>
-                    </marquee>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Contact Section -->
@@ -256,8 +269,7 @@
                 <div class="contact-info animate-left delay-1">
                     <div class="contact-item">
                         <div class="contact-icon">
-                            <!-- <i class="fas fa-envelope"></i> -->
-                             <i class="fa-regular fa-envelope"></i>
+                            <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-text">
                             <h4>Email</h4>
@@ -282,6 +294,26 @@
                             <p>P.O BOX 14-20401, CHEBUNYO</p>
                         </div>
                     </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Social Media</h4>
+                            <div class="social-contact">
+                                <a href="https://wa.me/254724818126" target="_blank" title="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourprofile" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="contact-form animate-right delay-2">
                     <form id="contactForm">
@@ -312,9 +344,15 @@
     <footer>
         <div class="container">
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
             <p class="copyright">&copy; <span id="year"></span> Alfonce Kipkemoi Ngetich. All Rights Reserved.</p>
         </div>
